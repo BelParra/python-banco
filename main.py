@@ -214,7 +214,7 @@ Sua opção: """.format(
             }
         )
     else:
-        print("Opção inválida.")
+        print("\n{}Opção inválida.{}\n".format(red, clear))
         return None
 
     print("\n{}Conta criada com sucesso.{}\n".format(green, clear))
