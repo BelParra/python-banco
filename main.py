@@ -217,7 +217,7 @@ Sua opção: """.format(
         print("Opção inválida.")
         return None
 
-    print("Conta criada com sucesso.\n")
+    print("\n{}Conta criada com sucesso.{}\n".format(green, clear))
     return numero_conta
 
 
